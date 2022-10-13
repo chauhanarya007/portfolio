@@ -1,8 +1,325 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* cursor: none; */
+}
 body {
-  padding: 50px;
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  background: #4f555a;
+}
+.container-fluid{
+  padding: 0 3rem 0;
+}
+.logo{
+  height:auto;
+  width: 7rem;
+}
+.nav-link{
+  color: rgb(218, 218, 218);
+}
+.nav-link:hover{
+  color: rgba(255, 255, 255, 0.596);
 }
 
-a {
-  color: #00B7FF;
+
+
+
+
+/* ---------------------------------------Footer------------------------------ */
+
+.footer-distributed{
+	background: #212529;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px 20px 50px;
+  margin-bottom: 0;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed a img{
+	height: auto;
+  width: 8rem;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  rgb(124, 124, 124);
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 30%;
+}
+
+.footer-distributed .footer-center i{
+	color: #d2d2d2;
+	font-size: 20px;
+	margin: 15px 15px;
+	vertical-align: middle;
+}
+
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #c2c2c2;
+  font-weight:400;
+	vertical-align: middle;
+	margin:10px;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+}
+
+.footer-distributed .footer-center p a{
+	color:  rgb(0, 179, 249);
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: rgb(200, 200, 200);
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 25%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #dedede;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+  padding-top: 5px;
+}
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+
+/* --------------------------------------Contact Form------------------------------------ */
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+.form-mb-5 {
+  margin-bottom: 20px;
+}
+.form-pt-3 {
+  padding-top: 12px;
+}
+.form-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+ 
+}
+.form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #dedede;
+  margin-bottom: 12px;
+}
+.form-label-2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 2px solid #303943; 
+  background: #1F2731;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(224, 224, 224);
+  outline: none;
+  resize: none;
+}
+
+.form-input:focus {
+  outline: none !important;
+  border: 2px solid #319cfa;
+}
+
+.form-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 32px;
+  border: 2px solid #03A9F4;
+  font-weight: 600;
+  background-color: #2d94f500;
+  color: #03A9F4;
+  cursor: pointer;
+}
+.form-btn:hover {
+  background-color: #03A9F4;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.form--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.form-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
+
+/* ------------------------------------------About Me--------------------------------------------------- */
+/* ------------------------------------------About Me--------------------------------------------------- */
+/* ------------------------------------------About Me--------------------------------------------------- */
+/* ------------------------------------------About Me--------------------------------------------------- */
+
+.about{
+  padding: 7rem 10rem 10rem;
+}
+.about > h3{
+  color: #03A9F4;
+  font-family: 'Covered By Your Grace', cursive;
+}
+.about > h1 > a{
+  color: #e1e1e1;
+  text-decoration: none;
+}
+.about > p {
+  color: #c0c0c0;
+}
+.pro-icons{
+  padding-top: 30px;
+}
+.pro-icons > i{
+  font-size: 3rem;
+  padding: 2rem;
+}
+@media (max-width: 540px){
+  .about{
+    padding: 5rem;
+  }
+  .pro-icons > i{
+    padding: 1rem;
+  }
 }
