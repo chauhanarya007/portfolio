@@ -456,6 +456,14 @@ body {
   min-height: 100vh;
  
 }
+#myVideo {
+  min-width: 100%;
+  min-height: auto;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 /* Add some content at the bottom of the video/page */
 .container-div {
