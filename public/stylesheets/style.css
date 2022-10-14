@@ -421,3 +421,52 @@ body {
     grid-template-columns: 100%;
   }
 }
+
+/* 
+//////////////////////////////////Scrollbar edit //////////////////////////////////////////////////////////*/
+::-webkit-scrollbar-thumb {
+  background: #03A9F4; 
+  border-radius:5px;
+}
+::-webkit-scrollbar-track {
+  background: #4F555A;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #018bca; 
+}
+::-webkit-scrollbar {
+  width: 10px;}
+
+  /* ////////////////////////////////Index///////////////////////////////////////////////////////// */
+  /* ////////////////////////////////Index///////////////////////////////////////////////////////// */
+  /* ////////////////////////////////Index///////////////////////////////////////////////////////// */
+  /* ////////////////////////////////Index///////////////////////////////////////////////////////// */
+
+.banner > .container-div > h1{
+  color: #0097dd;
+  font-size: 4rem;
+  font-family: 'Covered By Your Grace', cursive;
+}
+.banner > .container-div > h3{
+  font-weight: bold;
+  color: rgb(216, 216, 216);
+}
+.banner{
+  padding:5rem;
+  min-height: 100vh;
+ 
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: auto;
+}
+
+/* Add some content at the bottom of the video/page */
+.container-div {
+  width: 100%;
+}
+
