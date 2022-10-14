@@ -469,4 +469,14 @@ body {
 .container-div {
   width: 100%;
 }
-
+.container-div > a{
+  
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.container-div > a:hover{
+  color: #018bca;
+  transition: all 0.5s ease;
+}
