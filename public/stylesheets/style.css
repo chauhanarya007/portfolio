@@ -7,6 +7,8 @@ body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   background: #4f555a;
+  width: 100vw;
+  overflow-x: hidden;
 }
 .container-fluid{
   padding: 0 3rem 0;
